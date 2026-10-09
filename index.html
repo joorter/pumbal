@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pumbal – La fiesta de tablero más loca</title>
+<meta name="description" content="Pumbal: juego de tablero y minijuegos para Android. Tira el dado, roba monedas y gana minijuegos locos con tus amigos u online.">
+<link rel="icon" href="icono.png">
+<style>
+  :root { --bg1:#6A4BFF; --bg2:#E5459A; --card:#ffffff; --ink:#1f1d3a; --muted:#5d5b7a; --gold:#FFC93C; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, "Segoe UI", Roboto, sans-serif; color: var(--ink);
+         background: linear-gradient(160deg, var(--bg1), var(--bg2)) fixed; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 32px 16px 48px; }
+  header { display:flex; align-items:center; gap:20px; color:#fff; }
+  header img { width:104px; height:104px; border-radius:24px; box-shadow:0 8px 24px rgba(0,0,0,.25); }
+  h1 { font-size: clamp(40px, 8vw, 68px); margin:0; letter-spacing:1px; color: var(--gold);
+       text-shadow: 0 4px 0 #2a1660; }
+  .tag { margin:4px 0 0; font-size: 20px; font-weight: 600; }
+  .card { background: var(--card); border-radius: 22px; padding: 24px; margin-top: 24px; box-shadow:0 10px 30px rgba(0,0,0,.18); }
+  .hero { width:100%; border-radius:16px; display:block; }
+  .shots { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px; margin-top:16px; }
+  .shots img { width:100%; border-radius:12px; display:block; }
+  ul { padding-left: 20px; line-height: 1.6; }
+  .btn { display:inline-block; background:#2FBF71; color:#fff; font-weight:700; text-decoration:none;
+         padding:14px 22px; border-radius:14px; font-size:18px; box-shadow:0 4px 0 #1f8a50; }
+  .btn.soon { background:#8c8aa8; box-shadow:0 4px 0 #6b698a; cursor: default; }
+  footer { color:#fff; text-align:center; margin-top:28px; font-size:15px; }
+  footer a { color:#fff; }
+  .en { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="icono.png" alt="Icono de Pumbal">
+    <div>
+      <h1>PUMBAL</h1>
+      <p class="tag">¡La fiesta de tablero más loca! · <span lang="en">The craziest board game party!</span></p>
+    </div>
+  </header>
+
+  <div class="card">
+    <img class="hero" src="destacado.png" alt="Pumbal: tableros, minijuegos y personajes">
+    <p style="margin-top:20px">
+      <span class="btn soon">Próximamente en Google Play · Coming soon</span>
+    </p>
+    <ul>
+      <li>🎲 <b>5 tableros</b> con cruces, atajos y casillas especiales.</li>
+      <li>🏆 <b>40 minijuegos</b>: todos contra todos, 1 contra el resto y por equipos.</li>
+      <li>😎 <b>20 personajes</b> con habilidad propia y 60 aspectos.</li>
+      <li>🌍 Un jugador, con amigos (código de sala) u <b>online</b> con ranking de copas.</li>
+      <li>✅ <b>Gratis</b> y sin anuncios durante las partidas.</li>
+      <li>🌐 Español, English, Français, Deutsch, Português, Русский, Italiano.</li>
+    </ul>
+    <p class="en" lang="en">Roll the dice, steal coins from your rivals and win crazy minigames with friends or online.
+      5 boards, 40 minigames, 20 characters. Free, with no ads during matches.</p>
+    <div class="shots">
+      <img src="captura1.png" alt="Tablero de la isla">
+      <img src="captura2.png" alt="Minijuego Pintalocos">
+      <img src="captura3.png" alt="Minijuego de los pastores">
+    </div>
+  </div>
+
+  <footer>
+    <a href="privacidad.html">Política de privacidad · Privacy policy</a><br>
+    © 2026 Pumbal
+  </footer>
+</div>
+</body>
+</html>
